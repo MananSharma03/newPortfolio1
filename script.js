@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const sendBtn = document.getElementById("send-btn");
     const messagesContainer = document.getElementById("chatbot-messages");
 
-    const API_KEY = "YOUR_GROQ_API_KEY";  // Replace with your actual API key
-    const API_URL = "https://api.groq.com/v1/chat/completions"; // Corrected API endpoint
+    const API_KEY = "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";  
+    const API_URL = "https://api.groq.com/v1/chat/completions"; 
 
     chatbotIcon.addEventListener("click", () => {
         chatbotWindow.classList.toggle("active");
