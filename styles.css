@@ -24,9 +24,7 @@ body {
     align-items: center;
     padding: 1rem 5%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent background */
     backdrop-filter: blur(10px);
-    /* Adds blur effect */
     color: white;
     position: sticky;
     top: 0;
@@ -326,8 +324,6 @@ footer {
     }
 }
 
-
-/* Responsive Design */
 @media (max-width: 768px) {
     .hero-flex-container {
         flex-direction: column;
@@ -356,7 +352,6 @@ footer {
     }
 }
 
-/* Additional Animations and Interactions */
 @keyframes fadeIn {
     from {
         opacity: 0;
